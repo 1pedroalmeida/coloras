@@ -1,7 +1,0 @@
-Coloras Org
-
-[Projects]
-- coloras (Color manipulation library & CLI tool)
-- Coloras (electron desktop app)
-
-[Desktop App]
