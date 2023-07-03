@@ -17,8 +17,6 @@ if (eggs.length) {
         case "conv":
         case "convert":
 
-            process.title = "coloras convert"
-
             if (eggs[1]) {
                 if (eggs[1].toLowerCase() == "-copy" || eggs[1].toLowerCase() == "-c") {
                     convert(true);
@@ -31,8 +29,6 @@ if (eggs.length) {
         case "gen":
         case "generate":
 
-            process.title = "coloras generate"
-
             if (eggs[1]) {
                 if (eggs[1].toLowerCase() == "-copy" || eggs[1].toLowerCase() == "-c") {
                     generate(true);
@@ -44,8 +40,6 @@ if (eggs.length) {
             break;
         case "img":
         case "image":
-
-            process.title = "coloras image"
 
             if (eggs[1]) {
                 if (eggs[1].toLowerCase() == "-copy" || eggs[1].toLowerCase() == "-c") {

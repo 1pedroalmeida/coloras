@@ -27,9 +27,7 @@ $ npm install coloras
 $ npm install -g coloras
 ```
 
-## Module
-
-### Usage
+## API Usage
 
 ```js
 const { Color } = require("coloras");
@@ -86,9 +84,7 @@ isColor("#1f1f1f"); // -> { color: true, colorSystem: "hex" }
 isColor("coloras"); // -> { color: false, colorSystem: null }
 ```
 
-## CLI
-
-### Usage
+## CLI Usage
 
 `coloras <command>`
 
